@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kanit&display=swap');
 
 *{
     margin: 0;
@@ -30,6 +30,9 @@ body {
      
     margin: 0px 0px ; 
    }
+   .img-right{
+      padding-left: 20px;
+   }
    .sign {
     float: right; /* Выравнивание по правому краю */
     border: 1px solid #333; /* Параметры рамки */
@@ -42,8 +45,8 @@ body {
    }
    
    .thumb img  {
-    border: 2px solid #000000; /* Рамка вокруг фотографии */
-    padding: 1px; /* Расстояние от картинки до рамки */
+    border: 0px solid #000000; /* Рамка вокруг фотографии */
+    
     background: rgb(0, 0, 0); /* Цвет фона */
     margin-right: -167px; /* Отступ справа */
     margin-left: 229px;
@@ -118,6 +121,23 @@ img.wdth{
     text-align: center;
     
 }
+.my-1{
+     
+}
+.text-css{
+   font-family: 'Kanit'; 
+    font-size: 2rem;
+}
+.text-css2{
+    font-family: 'Kanit';
+    font-size: 3.5rem;
+}
+
+.text-css3{
+    
+    font-family: 'Kanit' 100 italic;
+}
+
 .box h2{
     font-size: 2rem;
     padding: 15px 0;
